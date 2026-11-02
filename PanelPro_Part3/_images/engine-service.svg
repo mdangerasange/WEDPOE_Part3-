@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Engine support and workshop service</title>
+  <desc id="desc">A stylised engine block and workshop service illustration for PanelPro Auto Spares.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f5f7f9"/>
+      <stop offset="100%" stop-color="#e0e8ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg3)"/>
+  <g opacity="0.15">
+    <polygon points="0,40 240,0 360,120 120,200" fill="#17212b"/>
+    <polygon points="960,0 1200,0 1200,180 1040,120" fill="#d97706"/>
+  </g>
+  <g>
+    <path d="M275 260L440 180h320l170 80v260H275z" fill="#253b4a"/>
+    <g fill="#7f8d99">
+      <rect x="360" y="250" width="80" height="170" rx="18"/>
+      <rect x="470" y="250" width="80" height="170" rx="18"/>
+      <rect x="590" y="250" width="80" height="170" rx="18"/>
+      <rect x="700" y="250" width="80" height="170" rx="18"/>
+      <rect x="800" y="250" width="80" height="170" rx="18"/>
+    </g>
+    <g fill="#dfe7ee">
+      <ellipse cx="405" cy="360" rx="30" ry="58"/>
+      <ellipse cx="515" cy="360" rx="30" ry="58"/>
+      <ellipse cx="625" cy="360" rx="30" ry="58"/>
+      <ellipse cx="735" cy="360" rx="30" ry="58"/>
+      <ellipse cx="845" cy="360" rx="30" ry="58"/>
+    </g>
+    <rect x="345" y="520" width="515" height="50" rx="18" fill="#d97706"/>
+  </g>
+  <g fill="#17212b" font-family="Arial, sans-serif" font-weight="700">
+    <text x="300" y="120" font-size="68">ENGINE CARE</text>
+  </g>
+  <text x="300" y="610" font-family="Arial, sans-serif" font-size="34" fill="#d97706" font-weight="700">Reliable parts. Trusted service.</text>
+</svg>

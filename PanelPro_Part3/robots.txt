@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace YOUR-DOMAIN with the final deployed website domain.
+Sitemap: https://heartfelt-lolly-353d1f.netlify.app/sitemap.xml

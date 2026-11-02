@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Trim and accessories supplies</title>
+  <desc id="desc">Three panel mockups representing bumpers, doors, and trim accessories in a workshop setting.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#edf1f4"/>
+      <stop offset="100%" stop-color="#dfe5eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg2)"/>
+  <g opacity="0.16">
+    <path d="M0 700L400 100L1200 800H0Z" fill="#17212b"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="170" y="120" font-size="68" font-weight="700" fill="#17212b">QUALITY PARTS</text>
+  </g>
+  <g>
+    <rect x="120" y="220" width="240" height="340" rx="26" fill="#d9e1e7"/>
+    <rect x="450" y="240" width="240" height="340" rx="26" fill="#c9d6e2"/>
+    <rect x="780" y="200" width="240" height="340" rx="26" fill="#f1c67d"/>
+    <line x1="170" y1="260" x2="330" y2="260" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+    <line x1="500" y1="285" x2="660" y2="285" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+    <line x1="830" y1="240" x2="990" y2="240" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+    <g fill="#17212b" font-family="Arial, sans-serif" font-size="26" font-weight="700">
+      <text x="175" y="630">Bumpers</text>
+      <text x="515" y="630">Doors</text>
+      <text x="835" y="630">Trim</text>
+    </g>
+  </g>
+  <g>
+    <path d="M900 220h120v150h-120z" fill="#b8c4d0"/>
+    <path d="M980 290h90v60h-90z" fill="#dfe7ee"/>
+  </g>
+  <text x="190" y="700" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#d97706">Bumpers • Doors • Trim • Accessories</text>
+</svg>

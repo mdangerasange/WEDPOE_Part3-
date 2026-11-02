@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact PanelPro Auto Spares in Johannesburg for automotive parts, workshop support and product enquiries.">
+    <meta name="keywords" content="contact PanelPro, auto spares contact, Johannesburg vehicle parts">
+    <meta name="author" content="PanelPro Auto Spares">
+    <meta name="theme-color" content="#17212b">
+    <meta property="og:site_name" content="PanelPro Auto Spares">
+    <meta property="og:title" content="Contact PanelPro Auto Spares | Get in Touch">
+    <meta property="og:description" content="Contact PanelPro Auto Spares in Johannesburg for automotive parts, workshop support and product enquiries.">
+    <meta property="og:type" content="website">
+    <title>Contact | PanelPro Auto Spares</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="_images/logo.svg" alt="PanelPro Auto Spares Logo" width="200" height="200">
+            <a href="index.html">PanelPro Auto Spares</a>
+        </div>
+
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html" class="active">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Contact PanelPro Auto Spares</h1>
+            <p>Tell us what parts or services you need and our team will help you find the right solution for your vehicle, workshop, or business.</p>
+        </section>
+
+        <section class="contact-content">
+            <h2>Get in Touch</h2>
+
+            <div class="contact-layout">
+                <ul class="info-list">
+                    <li><strong>Phone:</strong> +27 (0) 11 555 0123</li>
+                    <li><strong>Email:</strong> sales@panelpro.co.za</li>
+                    <li><strong>Address:</strong> 28 Auto Way, Johannesburg, South Africa</li>
+                    <li><strong>Hours:</strong> Monday to Friday, 8:00 AM - 5:00 PM</li>
+                </ul>
+                <img src="_images/parts-1.jpg" alt="PanelPro auto parts and body panel supplies" class="contact-photo">
+            </div>
+        </section>
+        <section class="form-section">
+            <h2>Send us a message</h2>
+            <p>Complete the form. After validation, your email application will open with the message ready to send to our sales team.</p>
+            <form id="contactForm" class="site-form" novalidate>
+                <label for="contactName">Full name</label>
+                <input id="contactName" name="name" autocomplete="name" required minlength="2">
+                <label for="contactEmail">Email address</label>
+                <input id="contactEmail" name="email" type="email" autocomplete="email" required>
+                <label for="contactPhone">Phone number</label>
+                <input id="contactPhone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+() -]{7,20}" required>
+                <label for="messageType">Message type</label>
+                <select id="messageType" name="messageType" required>
+                    <option value="">Choose a message type</option>
+                    <option>General question</option><option>Product support</option><option>Order follow-up</option><option>Complaint or feedback</option>
+                </select>
+                <label for="contactMessage">Your message</label>
+                <textarea id="contactMessage" name="message" rows="6" required minlength="10" maxlength="1500"></textarea>
+                <p class="form-error" id="contactError" role="alert"></p>
+                <button class="btn" type="submit">Prepare email</button>
+            </form>
+            <div id="contactSuccess" class="form-result" role="status" hidden></div>
+        </section>
+        <section class="extra-section">
+            <h2>Find us in Johannesburg</h2>
+            <p>The map is centred on Johannesburg for general direction. Confirm the exact street location with us before travelling.</p>
+            <div id="businessMap" class="map" role="region" aria-label="Map centred on Johannesburg"></div>
+            <p><a href="https://www.openstreetmap.org/search?query=28%20Auto%20Way%2C%20Johannesburg" target="_blank" rel="noopener">Open address search in OpenStreetMap</a></p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 PanelPro Auto Spares. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

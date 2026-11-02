@@ -1,0 +1,1 @@
+Copy the existing PanelPro image assets into this folder. Keep the filenames referenced in the HTML: logo.png, OIP.webp, 1000_F_617261314_xTyqElz3wunGT6JPWCCNeLyfTO0t5FWx.jpg, and engine.jpg.

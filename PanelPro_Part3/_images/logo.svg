@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 170" role="img" aria-labelledby="title desc">
+  <title id="title">PanelPro Auto Spares logo</title>
+  <desc id="desc">A premium automotive logo with a stylised P emblem and bold business name.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7c76b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="170" rx="22" fill="#17212b"/>
+
+  <g transform="translate(20 18)">
+    <rect x="0" y="0" width="134" height="134" rx="30" fill="url(#gold)"/>
+    <circle cx="44" cy="43" r="18" fill="#17212b" opacity="0.2"/>
+    <path d="M41 31v72h23c27 0 42-17 42-36s-15-36-42-36H41zm23 23h10c10 0 17 7 17 13s-7 13-17 13H64V54z" fill="#ffffff"/>
+    <g fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round">
+      <circle cx="38" cy="88" r="12"/>
+      <path d="M38 74v28M24 88h28"/>
+    </g>
+  </g>
+
+  <g fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-weight="700">
+    <text x="180" y="82" font-size="42">PanelPro</text>
+    <text x="181" y="118" font-size="22" fill="#f7c76b" letter-spacing="2">AUTO SPARES</text>
+  </g>
+</svg>

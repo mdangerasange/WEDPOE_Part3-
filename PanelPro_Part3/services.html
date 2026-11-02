@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore body panels, trim and accessories, workshop support, bulk orders and parts advice from PanelPro Auto Spares.">
+    <meta name="keywords" content="body panels, auto parts, workshop support, bulk orders, trim accessories">
+    <meta name="author" content="PanelPro Auto Spares">
+    <meta name="theme-color" content="#17212b">
+    <meta property="og:site_name" content="PanelPro Auto Spares">
+    <meta property="og:title" content="Auto Parts and Services | PanelPro Auto Spares">
+    <meta property="og:description" content="Explore body panels, trim and accessories, workshop support, bulk orders and parts advice from PanelPro Auto Spares.">
+    <meta property="og:type" content="website">
+    <title>Services | PanelPro Auto Spares</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="_images/logo.svg" alt="PanelPro Auto Spares Logo" width="200" height="200">
+            <a href="index.html">PanelPro Auto Spares</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-cart">
+            <button class="cart-button" type="button" aria-label="Open shopping cart">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 9.2a1 1 0 0 0 1 .8h8.8a1 1 0 0 0 1-.8L18.6 7H7.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="10" cy="18" r="1.6" fill="currentColor"/>
+                <circle cx="17" cy="18" r="1.6" fill="currentColor"/>
+                </svg>
+                <span class="cart-badge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-intro">
+            <h1>Our Services</h1>
+            <p>PanelPro Auto Spares supports vehicle repair businesses, resellers, and private customers with quality parts and practical automotive supply solutions.</p>
+        </section>
+
+        <section class="extra-section">
+            <h2>Service Highlights</h2>
+            <p>These highlights are loaded on the page using JavaScript.</p>
+            <div id="dynamicServices" class="card-grid" aria-live="polite"></div>
+        </section>
+        <section class="services-content">
+            <div class="service-tools">
+                <label for="serviceSearch">Search services</label>
+                <input id="serviceSearch" type="search" placeholder="e.g. body panels" aria-describedby="searchHelp">
+                <small id="searchHelp">Type a word to filter the services below.</small>
+                <label for="serviceSort">Sort services</label>
+                <select id="serviceSort">
+                    <option value="default">Original order</option>
+                    <option value="az">Name: A to Z</option>
+                    <option value="za">Name: Z to A</option>
+                </select>
+                <p id="serviceCount" aria-live="polite">Showing all services.</p>
+            </div>
+            <h2>What We Supply</h2>
+            <ul class="service-list">
+                <li><strong>Body Panels:</strong> Front bumpers, doors, fenders, bonnets, and replacement body components for professional repair and restoration work.</li>
+                <li><strong>Trim & Accessories:</strong> Exterior and interior finishing parts that improve the appearance and integrity of the vehicle.</li>
+                <li><strong>Workshop Support:</strong> Reliable parts supply for panel beaters, garages, and repair specialists working to tight deadlines.</li>
+                <li><strong>Bulk Orders:</strong> Competitive pricing and flexible stock support for resellers, fleet maintenance teams, and trade buyers.</li>
+                <li><strong>Parts Advice:</strong> Expert guidance to help customers choose the right component for fitment, quality, and budget.</li>
+            </ul>
+        </section>
+    
+        <section class="extra-section">
+            <h2>Stock & Pricing Guide</h2>
+            <p>Availability and exact pricing are confirmed by our sales team before checkout. The guide below shows common starting ranges for popular categories.</p>
+
+            <div class="stock-tools">
+                <label for="stockSearch">Filter stock items</label>
+                <input id="stockSearch" type="search" placeholder="Search parts or categories">
+                <label for="stockSort">Sort stock</label>
+                <select id="stockSort">
+                    <option value="default">Featured</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                    <option value="az">Name: A to Z</option>
+                </select>
+                <label for="stockCategory">Price range</label>
+                <select id="stockCategory">
+                    <option value="all">All stock</option>
+                    <option value="budget">Budget</option>
+                    <option value="premium">Premium</option>
+                </select>
+                <p id="stockCount" aria-live="polite">Showing all stock items.</p>
+            </div>
+
+            <div id="stockPricingGrid" class="stock-grid" aria-live="polite"></div>
+            <div id="cartPanel" class="cart-panel" aria-live="polite">
+                <h3>Your cart</h3>
+                <ul id="cartList" class="cart-list"></ul>
+                <div class="cart-total-row">
+                    <span>Total</span>
+                    <strong id="cartTotal">R0</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="extra-section">
+            <h2>Need help choosing a part?</h2>
+            <p>Send your vehicle make, model, year and the part you need. We will help you with the next steps.</p>
+            <img src="_images/parts-2.jpg" alt="Auto spares and workshop support" class="service-photo">
+            <a class="btn" href="enquiry.html">Make an enquiry</a>
+        </section>
+        </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 PanelPro Auto Spares. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

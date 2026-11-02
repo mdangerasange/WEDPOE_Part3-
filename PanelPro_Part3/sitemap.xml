@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace YOUR-DOMAIN with the final deployed website domain before publishing. -->
+  <url><loc>https://heartfelt-lolly-353d1f.netlify.app/</loc></url>
+  <url><loc>https://heartfelt-lolly-353d1f.netlify.app/about.html</loc></url>
+  <url><loc>https://heartfelt-lolly-353d1f.netlify.app/services.html</loc></url>
+  <url><loc>https://heartfelt-lolly-353d1f.netlify.app/contactus.html</loc></url>
+  <url><loc>https://heartfelt-lolly-353d1f.netlify.app/enquiry.html</loc></url>
+</urlset>
